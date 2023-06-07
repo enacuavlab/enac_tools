@@ -1,0 +1,17 @@
+{
+  "name": "ENAC HLAs",
+  "apiVersion": "1.0.0",
+  "author": "Fabien-B",
+  "version": "0.0.1",
+  "description": "",
+  "extensions": {
+      "Pprzlink": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "Pprzlink.PprzlinkAnalyser"
+    },
+    "amt22": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "CUIDevices.AMT22Analyser"
+    }
+  }
+}
