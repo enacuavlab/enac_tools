@@ -6,12 +6,16 @@
   "description": "",
   "extensions": {
       "Pprzlink": {
-      "type": "HighLevelAnalyzer",
-      "entryPoint": "Pprzlink.PprzlinkAnalyser"
-    },
-    "amt22": {
-      "type": "HighLevelAnalyzer",
-      "entryPoint": "CUIDevices.AMT22Analyser"
+        "type": "HighLevelAnalyzer",
+        "entryPoint": "Pprzlink.PprzlinkAnalyser"
+      },
+      "amt22": {
+        "type": "HighLevelAnalyzer",
+        "entryPoint": "CUIDevices.AMT22Analyser"
+      },
+      "STS3032": {
+        "type": "HighLevelAnalyzer",
+        "entryPoint": "sts3032.Sts3032Analyser"
+      }
     }
-  }
 }
